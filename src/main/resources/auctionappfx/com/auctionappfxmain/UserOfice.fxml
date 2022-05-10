@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="614.0" style="-fx-background-color: #330033;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="auctionappfx.com.auctionappfxmain.UserOficeController">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="511.0" prefWidth="466.0" style="-fx-background-color: #dbdbdb;">
+         <children>
+            <TableView layoutX="8.0" layoutY="56.0" prefHeight="161.0" prefWidth="449.0">
+              <columns>
+                <TableColumn prefWidth="43.19998264312744" text="№п/п" />
+                <TableColumn prefWidth="161.60003280639648" text="Лот" />
+                  <TableColumn prefWidth="75.99995422363281" text="Ставка" />
+                  <TableColumn prefWidth="64.800048828125" text="Текущая" />
+                  <TableColumn prefWidth="95.20001220703125" text="Конец торгов" />
+              </columns>
+            </TableView>
+            <TableView layoutX="8.0" layoutY="283.0" prefHeight="161.0" prefWidth="449.0">
+               <columns>
+                  <TableColumn prefWidth="43.19998264312744" text="№п/п" />
+                  <TableColumn prefWidth="161.60003280639648" text="Лот" />
+                  <TableColumn prefWidth="110.39997863769531" text="Текущая ставка" />
+                  <TableColumn minWidth="0.0" prefWidth="133.60003662109375" text="Конец торгов" />
+               </columns>
+            </TableView>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="144.0" layoutY="16.0" prefHeight="26.0" prefWidth="218.0" text="Мои ставки" textAlignment="CENTER">
+               <font>
+                  <Font name="Disco 60-s" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="242.0" prefHeight="26.0" prefWidth="218.0" text="Мои лоты" textAlignment="CENTER">
+               <font>
+                  <Font name="Disco 60-s" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label alignment="TOP_CENTER" contentDisplay="TOP" layoutX="492.0" layoutY="14.0" prefHeight="18.0" prefWidth="108.0" text="Аукцiонъ" textAlignment="CENTER" textFill="#dbdbdb">
+         <font>
+            <Font name="Disco 60-s" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

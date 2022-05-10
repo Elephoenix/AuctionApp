@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="614.0" style="-fx-background-color: #330033;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="auctionappfx.com.auctionappfxmain.AuctionAppController">
+    <children>
+        <Label layoutX="208.0" layoutY="72.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="51.0" prefWidth="198.0" text="Аукцiонъ" textAlignment="CENTER" textFill="#dbdbdb">
+            <font>
+                <Font name="Disco 60-s" size="41.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="102.0" layoutY="147.0" prefHeight="283.0" prefWidth="410.0" style="-fx-background-color: #dbdbdb;">
+         <children>
+              <PasswordField alignment="TOP_CENTER" layoutX="83.0" layoutY="146.0" prefHeight="26.0" prefWidth="243.0" promptText="Шiфр" style="-fx-background-radius: 10; -fx-background-color: #dbdbdb;">
+                  <font>
+                      <Font name="Disco 60-s" size="18.0" />
+                  </font>
+              </PasswordField>
+              <TextField alignment="TOP_CENTER" layoutX="83.0" layoutY="110.0" prefHeight="27.0" prefWidth="243.0" promptText="Почтамт" style="-fx-background-color: #dbdbdb; -fx-background-radius: 10;">
+                  <font>
+                      <Font name="Disco 60-s" size="18.0" />
+                  </font>
+              </TextField>
+            <TextField alignment="TOP_CENTER" layoutX="83.0" layoutY="74.0" prefHeight="27.0" prefWidth="243.0" promptText="Имя" style="-fx-background-color: #dbdbdb; -fx-background-radius: 10;">
+               <font>
+                  <Font name="Disco 60-s" size="18.0" />
+               </font>
+            </TextField>
+            <TextField alignment="TOP_CENTER" layoutX="83.0" layoutY="38.0" prefHeight="27.0" prefWidth="243.0" promptText="Градъ" style="-fx-background-color: #dbdbdb; -fx-background-radius: 10;">
+               <font>
+                  <Font name="Disco 60-s" size="18.0" />
+               </font>
+            </TextField>
+              <Button fx:id="btnEnter" alignment="CENTER" layoutX="129.0" layoutY="214.0" lineSpacing="1.0" mnemonicParsing="false" onAction="#switchToSceneUserOffice" prefHeight="51.0" prefWidth="151.0" style="-fx-background-color: #330033; -fx-background-radius: 10;" text="Регiстрацiя" textAlignment="CENTER" textFill="#dbdbdb" textOverrun="CENTER_WORD_ELLIPSIS">
+                  <font>
+                      <Font name="Book Antiqua" size="18.0" />
+                  </font>
+              </Button>
+         </children></AnchorPane>
+    </children>
+</AnchorPane>
